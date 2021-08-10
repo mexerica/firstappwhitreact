@@ -47,13 +47,14 @@
   font-size: 42pt;
   font-family: sans-serif;
   text-shadow: 4px 4px 0px #b3b032;
-  line-height: 700px;
+  margin-top: 360px;
 }
 
 img.spooky {
   position: absolute;
   left: 500px;
   top: 82px;
+  animation: hueRotate 5s linear infinite;
 }
 
 img.statue {
@@ -61,6 +62,7 @@ img.statue {
   left: 200px;
   top: 100px;
   width: 250px;
+  animation: hueRotate 5s linear infinite;
 }
 
 img.checker {
@@ -68,6 +70,7 @@ img.checker {
   left: 200px;
   top: 0px;
   width: 600px;
+  animation: hueRotate 5s linear infinite;
 }
 
 img.palm {
